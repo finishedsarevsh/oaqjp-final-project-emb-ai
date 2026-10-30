@@ -1,12 +1,7 @@
-⚠️  WATSON ENDPOINT UNREACHABLE — MUST RUN IN IBM SKILLS NETWORK IDE
-=====================================================================
-RUN IN IBM Skills Network Cloud IDE terminal:
-
-  cd /home/project/final_project
-  python3
-  >>> from EmotionDetection.emotion_detection import emotion_detector
-  >>> print(emotion_detector('I love this new technology.'))
-
-Expected output showing all 5 scores + dominant_emotion:
-  {'anger': 0.0097627, 'disgust': 0.012898, 'fear': 0.015812,
-   'joy': 0.980909, 'sadness': 0.042572, 'dominant_emotion': 'joy'}
+theia@theia-workspace:/home/project/final_project$ python3
+Python 3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> print(emotion_detector('I am really mad about this'))
+{'anger': 0.6135055, 'disgust': 0.016335104, 'fear': 0.09174092, 'joy': 0.0025232935, 'sadness': 0.19656946, 'dominant_emotion': 'anger'}
+>>> exit()

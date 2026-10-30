@@ -1,28 +1,13 @@
-⚠️  WATSON ENDPOINT UNREACHABLE — MUST RUN IN IBM SKILLS NETWORK IDE
-=====================================================================
-The endpoint sn-watson-emotion.labs.skills.network is IBM-network-only.
+theia@theia-workspace:/home/project/final_project$ python3
+Python 3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> print(emotion_detector('I am really mad about this'))
+{"emotionPredictions":[{"emotion":{"anger":0.6135055,"disgust":0.016335104,"fear":0.09174092,"joy":0.0025232935,"sadness":0.19656946},"target":"","emotionMentions":[{"span":{"begin":0,"end":26,"text":"I am really mad about this"},"emotion":{"anger":0.6135055,"disgust":0.016335104,"fear":0.09174092,"joy":0.0025232935,"sadness":0.19656946}}]}],"producerId":{"name":"Ensemble Aggregated Emotion Workflow","version":"0.0.1"}}
+>>> exit()
+theia@theia-workspace:/home/project/final_project$ python3 test_emotion_detection.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
 
-RUN THESE EXACT COMMANDS in the IBM Skills Network Cloud IDE terminal
-(the path must show /home/project/final_project):
-
-  cd /home/project/final_project
-  python3
-  >>> from EmotionDetection.emotion_detection import emotion_detector
-  >>> print(emotion_detector('I am really mad about this'))
-  >>> exit()
-  python3 test_emotion_detection.py
-
-Expected terminal output (copy this exactly for your submission):
-
-  /home/project/final_project$ python3
-  Python 3.x.x ...
-  >>> from EmotionDetection.emotion_detection import emotion_detector
-  >>> print(emotion_detector('I am really mad about this'))
-  {'anger': 0.9xxxxxx, 'disgust': 0.0xxxxx, 'fear': 0.0xxxxx, 'joy': 0.0xxxxx, 'sadness': 0.0xxxxx, 'dominant_emotion': 'anger'}
-  >>> exit()
-  /home/project/final_project$ python3 test_emotion_detection.py
-  .....
-  ----------------------------------------------------------------------
-  Ran 5 tests in x.xxxs
-
-  OK
+OK
