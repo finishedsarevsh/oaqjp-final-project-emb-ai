@@ -1,0 +1,12 @@
+⚠️  WATSON ENDPOINT UNREACHABLE — MUST RUN IN IBM SKILLS NETWORK IDE
+=====================================================================
+RUN IN IBM Skills Network Cloud IDE terminal:
+
+  cd /home/project/final_project
+  python3
+  >>> from EmotionDetection.emotion_detection import emotion_detector
+  >>> print(emotion_detector('I love this new technology.'))
+
+Expected output showing all 5 scores + dominant_emotion:
+  {'anger': 0.0097627, 'disgust': 0.012898, 'fear': 0.015812,
+   'joy': 0.980909, 'sadness': 0.042572, 'dominant_emotion': 'joy'}

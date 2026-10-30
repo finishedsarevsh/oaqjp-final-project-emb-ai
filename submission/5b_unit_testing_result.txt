@@ -1,0 +1,14 @@
+test_anger (test_emotion_detection.TestEmotionDetector.test_anger)
+'I am really mad about this' should return anger as dominant emotion. ... ok
+test_disgust (test_emotion_detection.TestEmotionDetector.test_disgust)
+'I feel disgusted just hearing about this' should return disgust. ... ok
+test_fear (test_emotion_detection.TestEmotionDetector.test_fear)
+'I am really afraid that this will happen' should return fear. ... ok
+test_joy (test_emotion_detection.TestEmotionDetector.test_joy)
+'I am glad this happened' should return joy as dominant emotion. ... ok
+test_sadness (test_emotion_detection.TestEmotionDetector.test_sadness)
+'I am so sad about this' should return sadness as dominant emotion. ... ok
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
